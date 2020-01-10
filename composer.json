@@ -1,0 +1,23 @@
+{
+    "name": "allenlinatoc/php-container",
+    "description": "PSR-11 compliant container class specifically built for Slim v4, on top of Pimple.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "pimple/pimple": "^3.2",
+        "psr/container": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allen Linatoc",
+            "email": "linatoc.allen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Allenlinatoc\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
