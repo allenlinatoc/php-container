@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Allenlinatoc\Exceptions;
+namespace Allenlinatoc\PhpContainer\Exceptions;
 
 use Throwable;
 

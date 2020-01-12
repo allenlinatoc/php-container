@@ -11,7 +11,7 @@ PSR-11 compliant container class specifically built for Slim v4, on top of Pimpl
 ## Usage
 
 ```
-AppFactory::setContainer(new Allenlinatoc\Container());
+AppFactory::setContainer(new Allenlinatoc\PhpContainer\Container());
 ```
 
 Now use it like how you are used to Pimple container.

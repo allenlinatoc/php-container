@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Allenlinatoc;
+namespace Allenlinatoc\PhpContainer;
 
 
-use Allenlinatoc\Exceptions\ContainerNotFoundException;
+use Allenlinatoc\PhpContainer\Exceptions\ContainerNotFoundException;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;
 
@@ -17,7 +17,7 @@ class Container extends \Pimple\Container implements ContainerInterface
      * @param string $id Identifier of the entry to look for.
      *
      * @return mixed Entry.
-     * @throws ContainerNotFoundException  No entry was found for **this** identifier.
+     * @throws ContainerNotFoundException
      */
     public function get($id)
     {
