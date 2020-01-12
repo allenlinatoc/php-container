@@ -23,7 +23,7 @@ class Container extends \Pimple\Container implements ContainerInterface
     {
         if (!$this->offsetExists($id))
         {
-            throw new ContainerNotFoundException();
+            throw new ContainerNotFoundException($id);
         }
         return $this->offsetGet($id);
     }
