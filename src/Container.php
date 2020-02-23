@@ -10,7 +10,7 @@ use Psr\Container\ContainerInterface;
 
 class Container extends \Pimple\Container implements ContainerInterface
 {
-
+ 
     /**
      * Finds an entry of the container by its identifier and returns it.
      *
