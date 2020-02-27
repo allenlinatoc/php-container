@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Allenlinatoc\\": "src/"
+            "Allenlinatoc\\PhpContainer\\": "src/"
         }
     },
     "minimum-stability": ""
